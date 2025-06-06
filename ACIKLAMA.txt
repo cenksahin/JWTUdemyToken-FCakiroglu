@@ -1,0 +1,16 @@
+
+yükle:
+-UdemyAuthServer.API
+Swashbuckle.AspNetCore  //swagger - test etme ekraný için ekle : https://localhost:7203/swagger
+
+-UdemyAuthServer.Core
+Microsoft.AspNetCore.Identity.EntityFrameworkCore
+
+
+
+
+-SharedLibrary
+sað týk, Edit Project File yaparak ekle:
+<ItemGroup>
+	<FrameworkReference Include="Microsoft.AspNetCore.App"></FrameworkReference>
+</ItemGroup>
