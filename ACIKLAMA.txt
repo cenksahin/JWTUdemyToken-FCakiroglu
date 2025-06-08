@@ -1,10 +1,20 @@
 
 yükle:
 -UdemyAuthServer.API
-Swashbuckle.AspNetCore  //swagger - test etme ekraný için ekle : https://localhost:7203/swagger
+Swashbuckle.AspNetCore  //swagger
 
 -UdemyAuthServer.Core
 Microsoft.AspNetCore.Identity.EntityFrameworkCore
+
+-UdemyAuthServer.Data
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+Microsoft.AspNetCore.Identity.EntityFrameworkCore
+
+-UdemyAuthServer.Service
+AutoMapper
 
 
 
